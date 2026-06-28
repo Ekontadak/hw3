@@ -1,0 +1,170 @@
+{
+  "mean_score": 0.938125,
+  "accuracy_pct": 93.8125,
+  "pass_rate": 1.0,
+  "total": 16,
+  "passes": 16,
+  "fails": 0,
+  "results": [
+    {
+      "question": "What is the chirp mass of GW150914?",
+      "source": "gw_events.xlsx",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer accurately reflects the ground truth provided, correctly identifying the chirp mass and its associated bounds."
+    },
+    {
+      "question": "Which detectors observed GW170817?",
+      "source": "gwtc_catalog.json",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer correctly identifies all four detectors mentioned in the ground truth and is fully accurate based on the provided information."
+    },
+    {
+      "question": "What catalog does GW190814 belong to?",
+      "source": "gwtc_catalog.json",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer is accurate, directly addresses the question, and matches the ground truth provided."
+    },
+    {
+      "question": "What is the GPS timestamp of GW150914?",
+      "source": "gwtc_catalog.json",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer is accurate, directly addresses the question, and matches the ground truth provided."
+    },
+    {
+      "question": "What is the luminosity distance of GW170817?",
+      "source": "gw_events.xlsx",
+      "score": 0.93,
+      "faithfulness": 0.8,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer correctly identifies the numerical values but fails to include the unit (Mpc) and misinterprets the bounds as absolute values rather than offsets from the central estimate."
+    },
+    {
+      "question": "Which detectors were online during O4a?",
+      "source": "observing_runs.json",
+      "score": 0.97,
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer is accurate and grounded, though it omits the specific detail about Virgo being offline, which was present in the ground truth."
+    },
+    {
+      "question": "When did O3b end and why?",
+      "source": "observing_runs.json",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer accurately reflects the ground truth provided, addressing both the date and the reason for the end of O3b."
+    },
+    {
+      "question": "What were the component masses of GW150914?",
+      "source": "gw150914_detection.pdf",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer provides accurate, specific values for the component masses of GW150914, which are consistent with scientific data, and directly addresses the user's question."
+    },
+    {
+      "question": "What was the statistical confidence of the GW150914 detection?",
+      "source": "gw150914_detection.pdf",
+      "score": 0.67,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "verdict": "PASS",
+      "reason": "The assistant correctly identified that the provided context lacked the necessary information, making the answer faithful and relevant, but the context precision is 0 because the source material failed to provide the answer to the question."
+    },
+    {
+      "question": "What are the four types of gravitational waves LIGO searches for?",
+      "source": "ligo_learn_more.html",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer accurately lists the four types of gravitational waves as requested and is fully supported by the provided ground truth information."
+    },
+    {
+      "question": "How does LIGO's quad suspension system reduce vibrations?",
+      "source": "ligo_learn_more.html",
+      "score": 0.9,
+      "faithfulness": 0.7,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer is highly relevant and uses the provided context well, but it introduces external information about active isolation (hydraulics/seismometers) not present in the ground truth, slightly impacting faithfulness to the provided source."
+    },
+    {
+      "question": "How does GstLAL differ from PyCBC in its filtering approach?",
+      "source": "gw_detection_pipelines.md",
+      "score": 0.87,
+      "faithfulness": 1.0,
+      "answer_relevance": 0.6,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The answer is accurate and grounded in the context, but it is incomplete as it omits the specific technical details (SVD/LLOID vs. coincidence testing and ranking statistics) mentioned in the ground truth."
+    },
+    {
+      "question": "What is the purpose of the chi-squared signal consistency test in PyCBC?",
+      "source": "gw_detection_pipelines.md",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer accurately reflects the ground truth, explaining the mechanism of the chi-squared test in PyCBC and its purpose in distinguishing signals from noise."
+    },
+    {
+      "question": "What was Feynman's sticky bead argument and why was it important?",
+      "source": "GW_wikipedia.html",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer accurately reflects the provided ground truth, correctly explaining the mechanism of the sticky bead argument and its significance in confirming that gravitational waves carry energy."
+    },
+    {
+      "question": "What is the GPS start time of observing run O4b?",
+      "source": "observing_runs.json",
+      "score": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "verdict": "PASS",
+      "reason": "The generated answer accurately provides the specific GPS start time requested, which is fully supported by the ground truth information."
+    },
+    {
+      "question": "How many gravitational wave events are in the total catalog?",
+      "source": "gwtc_catalog.json",
+      "score": 0.67,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "verdict": "PASS",
+      "reason": "The assistant correctly identified that the provided context lacked the necessary information, making the answer faithful and relevant, but the context precision is 0.0 because the provided context failed to include the required data."
+    }
+  ]
+}
