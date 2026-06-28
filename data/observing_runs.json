@@ -1,0 +1,79 @@
+{
+  "source": "Gravitational Wave Open Science Center (gwosc.org)",
+  "source_url": "https://gwosc.org/data/",
+  "description": "Summary of LIGO-Virgo-KAGRA observing runs from O1 through O4b. Dates and GPS times verified against GWOSC data release pages.",
+  "observing_runs": [
+    {
+      "run": "O1",
+      "full_name": "First Observing Run",
+      "start_date": "2015-09-12",
+      "end_date": "2016-01-19",
+      "duration_days": 130,
+      "gps_start": 1126051217,
+      "gps_end": 1137254417,
+      "detectors_online": ["H1", "L1"],
+      "notable_events": ["GW150914", "GW151012", "GW151226"],
+      "notes": "First direct detection of gravitational waves (GW150914, September 14 2015). Only LIGO Hanford and LIGO Livingston operational. Virgo was offline undergoing Advanced Virgo upgrades."
+    },
+    {
+      "run": "O2",
+      "full_name": "Second Observing Run",
+      "start_date": "2016-11-30",
+      "end_date": "2017-08-25",
+      "duration_days": 268,
+      "gps_start": 1164556817,
+      "gps_end": 1187733618,
+      "detectors_online": ["H1", "L1", "V1"],
+      "notable_events": ["GW170104", "GW170608", "GW170814", "GW170817"],
+      "notes": "Advanced Virgo (V1) joined on August 1 2017, forming the first three-detector network. GW170817 was the first binary neutron star merger detected, accompanied by electromagnetic counterparts. GW170814 was the first event detected by all three detectors simultaneously."
+    },
+    {
+      "run": "O3a",
+      "full_name": "Third Observing Run, Part A",
+      "start_date": "2019-04-01",
+      "end_date": "2019-10-01",
+      "duration_days": 183,
+      "gps_start": 1238166018,
+      "gps_end": 1253977218,
+      "detectors_online": ["H1", "L1", "V1"],
+      "notable_events": ["GW190412", "GW190425", "GW190521", "GW190814"],
+      "notes": "Significantly improved sensitivity over O2. GW190412 was the first asymmetric-mass binary black hole detection. GW190425 was the second binary neutron star candidate. GW190814 had a secondary component in the mass gap between neutron stars and black holes. O3 was paused after O3a for commissioning."
+    },
+    {
+      "run": "O3b",
+      "full_name": "Third Observing Run, Part B",
+      "start_date": "2019-11-01",
+      "end_date": "2020-03-27",
+      "duration_days": 147,
+      "gps_start": 1256655618,
+      "gps_end": 1269363618,
+      "detectors_online": ["H1", "L1", "V1"],
+      "notable_events": ["GW200105", "GW200115"],
+      "notes": "O3b ended early on March 27 2020 due to the COVID-19 pandemic. GW200105 and GW200115 were the first confident neutron star-black hole merger candidates."
+    },
+    {
+      "run": "O4a",
+      "full_name": "Fourth Observing Run, Part A",
+      "start_date": "2023-05-24",
+      "end_date": "2024-01-16",
+      "duration_days": 237,
+      "gps_start": 1368975618,
+      "gps_end": 1389456018,
+      "detectors_online": ["H1", "L1"],
+      "notable_events": ["GW230529_181500", "GW230518_125908"],
+      "notes": "Virgo was not operational during O4a due to commissioning activities. KAGRA participated with limited sensitivity. GW230529 was a neutron star-black hole merger candidate. Catalog GWTC-4.0 covers O4a detections."
+    },
+    {
+      "run": "O4b",
+      "full_name": "Fourth Observing Run, Part B",
+      "start_date": "2024-04-10",
+      "end_date": "2025-01-28",
+      "duration_days": 293,
+      "gps_start": 1396796418,
+      "gps_end": 1422118818,
+      "detectors_online": ["H1", "L1", "V1"],
+      "notable_events": [],
+      "notes": "Virgo rejoined the network for O4b. Data publicly released via GWOSC. Catalog GWTC-5.0 covers O4b detections. A small amount of additional data from April 6-10 2024 (ER16) is included in the data release starting at GPS 1396417050."
+    }
+  ]
+}
